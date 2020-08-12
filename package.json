@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/carlos-dubon/webpack-typescript-scss-template#readme",
   "dependencies": {
-    "webpack": "^4.44.1"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0"
   }
 }
