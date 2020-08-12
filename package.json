@@ -1,0 +1,22 @@
+{
+  "name": "webpack-typescript-scss-template",
+  "version": "1.0.0",
+  "description": "A webpack starter template for a typescript and scss project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-dubon/webpack-typescript-scss-template.git"
+  },
+  "author": "carlos dubón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-dubon/webpack-typescript-scss-template/issues"
+  },
+  "homepage": "https://github.com/carlos-dubon/webpack-typescript-scss-template#readme",
+  "dependencies": {
+    "webpack": "^4.44.1"
+  }
+}
