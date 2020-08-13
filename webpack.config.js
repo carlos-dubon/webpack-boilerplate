@@ -10,7 +10,8 @@ module.exports = {
       {
         test: /\.ts$/,
         use: "ts-loader",
-        include: [path.resolve(__dirname, "src")],
+        include: [__dirname + "./src"],
+        //include: [path.resolve(__dirname, "src")],
       },
       {
         test: /\.scss$/,
@@ -32,9 +33,10 @@ module.exports = {
     extensions: [".ts", ".js"],
   },
   output: {
-    publicPath: "build",
+    //publicPath: "build",
+    path: __dirname + "/build",
     filename: "bundle.js",
-    path: path.resolve(__dirname, "build"),
+    //path: path.resolve(__dirname, "build"),
   },
   plugins: [
     new HtmlWebpackPlugin({
