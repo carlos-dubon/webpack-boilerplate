@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  devtool: 'eval-source-map',
   entry: "./src/ts/index.ts",
   module: {
     rules: [
@@ -10,6 +11,9 @@ module.exports = {
         include: [path.resolve(__dirname, "src")],
       },
     ],
+  },
+  resolve: {
+    extensions: [".ts", ".js"],
   },
   output: {
     publicPath: "build",
