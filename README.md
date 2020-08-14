@@ -4,27 +4,26 @@ Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server
 
 ## Installation
 
-    git clone https://github.com/carlos-dubon/webpack-boilerplate.git
-    npm i
+    $ git clone https://github.com/carlos-dubon/webpack-boilerplate.git
+    $ npm i
 
 ## Usage
 
 ### Production build
 
-    npm run build
+    $ npm run build
 
-> You can view the development server at localhost:8081
 
 ### Development server
 
-    npm run serve
+    $ npm run serve
+> You can view the development server at localhost:8081
 
 ## Features
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
-- Webfonts support
 - [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
 
 ## License
