@@ -1,10 +1,10 @@
 # webpack-boilerplate
 
-Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server
+Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server.
 
 ## Installation
 
-    git clone git@github.com:carlos-dubon/webpack-boilerplate
+    git clone https://github.com/carlos-dubon/webpack-boilerplate.git
     npm i
 
 ## Usage
@@ -21,7 +21,6 @@ Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server
 
 ## Features
 
-- [Webpack](https://webpack.js.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
