@@ -2,13 +2,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "production",
-  devtool: "eval-source-map",
   entry: "./src/ts/index.ts",
   module: {
     rules: [
       {
-        test: /\.ts$/,
-        loader: "ts-loader",
+        test: /\.tsx?$/,
+        use: "ts-loader",
         exclude: /node_modules/,
       },
       {
@@ -25,14 +24,22 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        options: {
+          publicPath: "./webfonts",
+          name: "./webfonts[name].[ext]",
+        },
+      },
     ],
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    path: __dirname + "/build",
     filename: "bundle.js",
+    path: __dirname + "/build",
   },
   plugins: [
     new HtmlWebpackPlugin({
