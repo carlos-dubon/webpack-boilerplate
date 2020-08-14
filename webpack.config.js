@@ -58,6 +58,7 @@ module.exports = {
               outputPath: "./webfonts",
               publicPath: "./webfonts",
               name: "./[name].[ext]",
+              limit: 8192,
             },
           },
         ],
