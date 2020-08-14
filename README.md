@@ -24,6 +24,8 @@ Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
+- Webfonts support
+- [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
 
 ## License
 
