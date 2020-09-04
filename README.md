@@ -1,5 +1,7 @@
 # webpack-boilerplate
 
+![banner](banner.png)
+
 Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server.
 
 ## Installation
