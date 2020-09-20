@@ -1,6 +1,6 @@
 # 📦 Webpack 4 boilerplate
 
-Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server.
+Minimal Webpack boilerplate with TypeScript, SCSS, ESLint and Webpack Dev Server.
 
 ## Installation
 
