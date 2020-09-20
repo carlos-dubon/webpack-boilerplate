@@ -1,6 +1,4 @@
-# webpack-boilerplate
-
-![banner](banner.png)
+# 📦 Webpack 4 boilerplate
 
 Minimal Webpack boilerplate with TypeScript, Sass, ESLint and Webpack Dev Server.
 
