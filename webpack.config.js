@@ -33,8 +33,8 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              outputPath: "./images",
-              publicPath: "./images",
+              outputPath: "./assets",
+              publicPath: "./assets",
               name: "./[name].[ext]",
             },
           },
@@ -64,10 +64,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
+      favicon: "./src/favicon.png",
     }),
     new MiniCssExtractPlugin({ filename: "[name].css" }),
     new CopyPlugin({
-      patterns: [{ from: "src/images", to: "images" }],
+      patterns: [{ from: "src/assets", to: "assets" }],
     }),
   ],
 };
