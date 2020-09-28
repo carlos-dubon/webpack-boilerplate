@@ -19,7 +19,7 @@ Minimal Webpack boilerplate with TypeScript, SCSS, TSLint and Webpack Dev Server
     $ npm run serve
 > You can view the development server at localhost:8081
 
-## ☑️ Features
+## Features
 
 - [Typescript](https://www.typescriptlang.org/)
 - [SCSS](https://sass-lang.com/)
