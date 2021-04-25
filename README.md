@@ -1,32 +1,28 @@
-# 📦 Webpack 4 boilerplate
+# Webpack 4 boilerplate
 
 Minimal Webpack boilerplate with TypeScript, SCSS, TSLint and Webpack Dev Server.
 
-## 💿 Installation
+# Installation
 
-    $ git clone https://github.com/carlos-dubon/webpack-boilerplate.git
-    $ npm i
+```bash
+$ git clone https://github.com/carlos-dubon/webpack-boilerplate.git
+$ npm i
+```
 
-## Usage
+# Usage
 
-### 📦 Production build
+- `npm run build` - Production build
+- `npm run serve` - Development server
+  > You can view the development server at localhost:8081
 
-    $ npm run build
-
-
-### 💻 Development server
-
-    $ npm run serve
-> You can view the development server at localhost:8081
-
-## Features
+# Features
 
 - [Typescript](https://www.typescriptlang.org/)
 - [SCSS](https://sass-lang.com/)
 - [TSLint](https://palantir.github.io/tslint/)
 - [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
 
-## Dependencies
+# Dependencies
 
 ### Webpack
 
@@ -49,9 +45,6 @@ Minimal Webpack boilerplate with TypeScript, SCSS, TSLint and Webpack Dev Server
 -   [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin)  - Generate HTML files from template.
 -   [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin)  - Extract CSS into separate files.
 
-## Author
-- [Carlos Dubón](https://github.com/carlos-dubon/)
-
-## 🔑 License
+# License
 
 [MIT](https://github.com/carlos-dubon/webpack-boilerplate/blob/master/LICENSE)
